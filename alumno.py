@@ -1,4 +1,7 @@
 class alumno:
+    def __init__(self):
+        self.nota = 0 
+        self.nombre = ""
     
     
     def imprimir(self):
@@ -8,8 +11,6 @@ class alumno:
         
         
     def promociona(self):
-        self.nota = 0
-        self.nombre = ""
         if (self.nota >= 5):
             print("promociona")
             
