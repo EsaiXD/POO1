@@ -12,3 +12,6 @@ class alumno:
         self.nombre = ""
         if (self.nota >= 5):
             print("promociona")
+            
+        else:
+            print("no promociona")
